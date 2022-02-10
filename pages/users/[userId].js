@@ -5,6 +5,8 @@ function User({user}) {
         <div>
             {console.log(user)}
             <h2>Welcome {user.name}</h2>
+            <a href={`tel:${user.phone}`}>{user.phone}</a>
+            <p>{user.website}</p>
         </div>
     )
 }
