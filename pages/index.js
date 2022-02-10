@@ -22,6 +22,9 @@ export default function Home() {
           <Link href='/posts'>
               <a> Posts</a>
           </Link>
+         <Link href='/albums'>
+              <a> Albums</a>
+          </Link>
       </main>
     </div>
   )
